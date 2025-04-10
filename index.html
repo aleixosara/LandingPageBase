@@ -3,43 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Disneyverso</title>
     <link rel="stylesheet" href="landing.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 </head>
+<link rel="icon" type="image/png" href="imagens/logo.png">
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="#secao1">Home</a></li>
-                <li><a href="#secao2">Serviços</a></li>
-                <li><a href="#secao3">Sobre nós</a></li>
+                <li><a href="#secao2">Trailers</a></li>
+                <li><a href="#secao3">Atores</a></li>
                 <li><a href="#secao4">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="secao1">
-        <h1>Bem-vindo à nossa landing page!</h1>
-        <p>Descrição introdutória sobre o objetivo da página.</p>
+        <h1>Bem-vindo ao Disneyverso! 🌟🪄</h1>
+        <p>
+            Você acaba de entrar no seu novo lugar favorito na internet — um cantinho mágico feito por fãs e para fãs, onde a magia da Disney nunca dorme! 💫<br>
+            Aqui, nostalgia e novidade andam lado a lado: dos clássicos que marcaram nossa infância até os lançamentos que a gente surta junto no Twitter!<br><br>
+    
+            🎬 Tá procurando aquele trailer novo de arrepiar? Achou!<br>
+            📜 Quer saber TUDO sobre seu personagem ou ator favorito? Temos!<br>
+            🔥 Curte uma fofoca quentíssima direto dos bastidores? A gente AMA também!<br>
+            👑 Princesas, super-heróis, jedis, vilões icônicos e todo o caos maravilhoso entre eles — o Disneyverso é seu portal definitivo.<br><br>
+    
+            E o melhor: <strong>você também faz parte disso</strong>. Poste, comente, compartilhe teorias, surtos, easter eggs, e claro... os momentos que fizeram você rir, chorar ou gritar “ISSO É MUITO DISNEY!!!”.
+        </p>
     </section>
 
     <section id="secao2">
-        <h2>Nossos Serviços</h2>
-        <p>Informações sobre os serviços que oferecemos.</p>
+        <h2>Assista aos Trailers Mais Mágicos do Disneyverso! 🎥✨</h2>
+        <p>Quer saber o que vem por aí ou reviver aquele friozinho na barriga com os clássicos? Aqui você encontra uma seleção especial de trailers dos filmes e séries mais amados do universo Disney — dos lançamentos mais aguardados às histórias que já moram no nosso coração. 🍿💫
+            Dá o play e se apaixone (de novo)!</p>
+            <h3>Tá procurando algum trailer em especifico?</h1>
+    <form action="https://www.youtube.com/channel/UC_5niPa-d35gg88HaS7RrIw" method="get" target="_blank">
+        <input type="search" id="gsearch" name="gsearch" placeholder="Digite a cidade e clique em BUSCAR" required>
+        <button type="submit">BUSCAR</button>
+    </form>
     </section>
 
     <section id="secao3">
         <h2>Sobre Nós</h2>
-        <p>Detalhes sobre a empresa ou o projeto.</p>
+        <p>O Disneyverso surgiu quando a criadora, Sara Aleixo, procurava informações sobre a sua série preferida Liv e Maddie, como não encontrou nada, ela pensou: "e se tivesse um site em que cada um pudesse contribuir para montá-lo?" e foi assim que o Disneyvers surgiu, uma enciclopédia dos nossos filmes e séries preferidos.</p>
     </section>
 
     <section id="secao4">
         <h2>Contato</h2>
-        <p>Informações de contato e formulário.</p>
+        <p>Tem alguma dúvida? Entre em contato com a gente!</p>
+        <form action="" method="get">
+            <input type="text" id="nome" name="nome" placeholder="Nome" required>
+            <input type="text" id="email" name="email" placeholder="E-mail" required>
+            <textarea id="mensagem" name="mensagem" placeholder="Mensagem" required></textarea>
+            <button type="submit">ENVIAR</button>
+        </form>
     </section>
 
     <footer>
-        <p>&copy; 2025 Sua Empresa. Todos os direitos reservados.</p>
+        <i data-feather="instagram"></i>
+        <i data-feather="twitter"></i>
+        <i data-feather="facebook"></i>
+        <p>&copy; 2025 Disneyverso. Todos os direitos reservados.</p>
     </footer>
+    <script>
+        feather.replace();
+    </script>
 </body>
 </html>

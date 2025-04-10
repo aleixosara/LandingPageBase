@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background: #333;
+    background: #162156;
     color: #fff;
     padding: 10px 0;
 }
@@ -32,25 +32,70 @@ section {
 }
 
 #secao1 {
-    background: #f4f4f4;
+    background: #DDA853;
 }
 
 #secao2 {
-    background: #e2e2e2;
+    background: #DDA853;
 }
+
+#secao2 input[type="search"] {
+    width: 700px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+#secao2 input[type="search"]::placeholder {
+    color: #162156;
+}
+
+#secao2 form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#secao2 button {
+    background-color: #162156;
+    border-radius: 20px;
+    border: none;
+    color: #f2f1f1;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+}
+
+#secao2 button:hover {background-color: #27548A}
 
 #secao3 {
-    background: #d0d0d0;
+    background: #DDA853;
 }
 
+
+
 #secao4 {
-    background: #b0b0b0;
+    background: #DDA853;
+}
+
+#secao4 form {
+    text-align: center;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 28%;
+}
+
+#secao4 input[type="text"]::placeholder {
+    background-color: #e7e7e7;
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #333;
+    background: #030303;
     color: white;
     position: relative;
 }
