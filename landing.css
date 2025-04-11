@@ -51,8 +51,8 @@ section {
 }
 
 #secao2 form {
-    display: flex;
     justify-content: center;
+    display: flex;
     align-items: center;
     gap: 10px;
 }
@@ -69,11 +69,18 @@ section {
 
 #secao2 button:hover {background-color: #27548A}
 
+#secao2 iframe {
+    width: 100%;
+    height: 800px;
+}
+
+#secao2 #pesquisa {
+    text-align: center;
+}
+
 #secao3 {
     background: #DDA853;
 }
-
-
 
 #secao4 {
     background: #DDA853;
