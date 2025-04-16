@@ -9,6 +9,9 @@ header {
     background: #162156;
     color: #fff;
     padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav ul {
@@ -32,6 +35,7 @@ section {
 }
 
 #secao1 {
+    padding-top: 80px;
     background: #DDA853;
 }
 
